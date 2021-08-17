@@ -1,0 +1,71 @@
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-90%, -50%)
+}
+
+.image {
+    border-radius: 50%
+}
+
+.header1 {
+    font-family: righteous, cursive;
+    font-size: 6vw;
+    color: #cf985c
+}
+
+.header2 {
+    font-family: ubuntu mono, monospace;
+    font-size: 1.4vw;
+    color: #c49462
+}
+
+.header3 {
+    font-family: ubuntu mono, monospace;
+    font-size: 2.2vw;
+    color: #cf985c
+}
+
+.link1 {
+    font-family: ubuntu mono, monospace;
+    font-size: 2.8vw;
+    color: inherit;
+    margin: 0 5px;
+    transition: .5s;
+    color: #cf985c
+}
+
+.link1:hover {
+    color: #b17d46
+}
+
+@media screen and (max-width:785px) {
+    .header1 {
+        font-size: 8vw
+    }
+    .link1 {
+        font-size: 4vw
+    }
+}
+
+@media screen and (max-width:765px) {
+    body {
+        text-align: center
+    }
+    .header1 {
+        font-size: 9vw
+    }
+    .header2 {
+        font-size: 2.5vw
+    }
+    .link1 {
+        font-size: 5vw
+    }
+}
+
+@media screen and (min-width:1390px) {
+    .header2 {
+        font-size: 1.2vw
+    }
+}
